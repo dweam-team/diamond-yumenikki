@@ -20,9 +20,9 @@ import torch
 import torchvision.transforms.functional as T
 from tqdm import tqdm
 
-from data.dataset import Dataset, CSGOHdf5Dataset
-from data.episode import Episode
-from data.segment import SegmentId
+from .data.dataset import Dataset, CSGOHdf5Dataset
+from .data.episode import Episode
+from .data.segment import SegmentId
 import os
 import random
 
