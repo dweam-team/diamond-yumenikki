@@ -1,0 +1,17 @@
+type = "Diamond"
+entrypoint = "diamond_yumenikki.dweam_game:YumeNikkiGame"
+repo_link = "https://github.com/theoden8/diamond_yumenikki"
+thumbnail_dir = "thumbnails"
+
+# Game-specific metadata
+[games.yumenikki]
+title = "Yume Nikki"
+tags = ["RPG"]
+description = "A model of Kikiyama's Yume Nikki, trained on the Shield-Folk world."
+
+[games.yumenikki.buttons]
+"⬆️ Up" = "Arrow Up"
+"⬅️ Left" = "Arrow Left"
+"⬇️ Down" = "Arrow Down"
+"➡️ Right" = "Arrow Right"
+"🔨 Interact" = "Z"
